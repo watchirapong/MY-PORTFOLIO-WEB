@@ -1,0 +1,244 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Sriracha', cursive;
+    background-color:#aeaeae	;
+  }
+  
+  .title{
+      text-align: left;
+  }
+
+  
+  nav {
+    background-color: #333; /* Background color of the navigation bar */
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #fff; /* Text color for the title and button */
+    position: fixed; /* This will fix position of nav bar */
+    justify-content: space-between; /* To push the title and button to the opposite sides */
+  }
+  
+  .navbar-left h1 {
+    margin: 0;
+  }
+  
+  .navbar-right a {
+    text-decoration: none;
+    /* background-color: #ff8809; Background color of the button */
+    color: #fff; /* Text color for the button */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s ease;
+  }
+
+  /* ###Content### */
+
+  section {
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }
+
+  /* Add the background image to the desired section */
+  #home {
+    color: #292929	; /* Set text color for better visibility */
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: #292929	;
+  }
+
+  #home a{
+    text-decoration: none;
+    background-color: #000000;
+    color: #fff	; /* Text color for the button */
+    border: none;
+    padding: 80px 150px;
+    border-radius: 30PX;
+    cursor: pointer;
+    transition: .5s ease;
+
+  }
+
+  #home a:hover{
+    text-decoration: none;
+    background-color: #000;
+    color: #ffdd00	; /* Text color for the button */
+    border: none;
+    padding: 110px 300px;
+    border-radius: 30PX;
+    cursor: pointer;
+    transition: .5s;
+    
+  }
+
+  img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+  }
+
+  #c {
+    margin-right: 20px;
+  }
+  
+  .navbar-right a:hover{
+    background-color: #ffc266; /* Background color of the button */
+    color: #fff; /* Text color for the button */
+    border: none;
+    transform: scale(1.2);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+  }
+  
+  footer {
+    background-color: #3a3a3a	;
+    padding: 2px;
+    text-align: center;
+  }
+
+  section:nth-child(even) {
+    background-color: #c9c9c9	;
+  }
+ 
+  .active {
+    background-color: #ffa31a	;
+  }
+
+  .inactive {
+    background-color:#1b1b1b	;
+  }
+  #contacts{
+    margin-right: 30px;
+  }
+  #pronhub{
+    height: 20px;
+    width: 140px;
+    background-color: black;
+    padding: 25px 20px;
+    border-radius: 25px;
+    color: #ffa31a;
+    text-transform: uppercase;
+  }
+  #rick{
+    position: relative;
+    bottom: 10px;
+    left: 7px;
+  }
+  #PORTFOLIO{
+    font-size: 100px;
+  }
+  #skills{
+    background-color: #5a5a5a;
+
+  }
+  #contact{
+    background-color: #474747;
+  }
+  #rickrolls_img{
+    width: auto;
+
+  }
+  .texts{
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    margin:auto;
+    border-color: #000;
+    border-style: solid;    
+  }
+  #proskill{
+    background-color: #c9c9c9;
+    width: 1300px;
+    height: 700px;
+    padding: 20px;
+  }
+  #proskills{
+    font-size: 60px;
+    margin-top: 0%;
+    color: #ff891a;
+    border-radius: 25px ;
+  }
+  #program{
+    width: 1300px; 
+    height: 95%;
+    background-color: white;
+    border-radius: 25px;
+    
+  }
+  #education{
+    font-size: 50px;
+  }
+  #edu{
+    display: block;
+    border-style: solid;
+    border-radius: 25px;
+    background-color: white;
+    border-width: 10px;
+    width: 1000px;
+    font-size: 100px;
+    margin-left: 530px;
+    text-align: center;
+  }
+  .imgg{
+    position: relative;
+    right: 240px;
+    bottom: 200px;
+    width: 300px;
+    height: 175px;
+    display: inline-block;
+    padding-right: 100px;
+  }
+  .facebookname{
+    position: relative;
+    right: 200px;
+    bottom: 200px;
+    font-size: 50px;
+    display: inline-block;
+  }
+  .imgg1{
+    float: none;
+    position: relative;
+    right: 940px;
+    width: 700px;
+    height: 250px;
+    top: 60px;
+
+  }
+  #igname{
+    position: relative;
+    top: 60px;
+    right: 940px;
+    font-size: 50px;
+  }
+  #github{
+    width: 400px;
+    height: 200px;
+    position: relative;
+    right: 1400px;
+    top: 300px;
+    }
+  #watchirapong{
+    position: relative;
+    font-size: 50px;
+    top: 300px;
+    right: 1350px;
+  }
